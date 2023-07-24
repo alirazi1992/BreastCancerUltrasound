@@ -144,7 +144,7 @@ Utilize GANs to generate synthetic images that can augment of dataset, effective
     - Final Model Evaluation for Breast Cancer Detection:
        Evaluate the performance of the final models using appropriate metrics, such as accuracy, precision, recall, F1-score, and Area Under the Curve (AUC), ensuring effective assessment of breast cancer detection capabilities.
 
-    -Conclusion and Insights for Ultrasound Breast Cancer Detection:
+    - Conclusion and Insights for Ultrasound Breast Cancer Detection:
       Summarize the outcomes of the machine learning project, including the strengths and limitations of each model for ultrasound breast cancer detection.
       Provide insights and potential areas for further improvement in the application of machine learning to breast cancer diagnosis. 
 
