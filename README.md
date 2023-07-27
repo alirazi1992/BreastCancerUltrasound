@@ -6,6 +6,7 @@ Contact: ali.razi9292@gmail.com
 #### Objective 
 
 Using machine learning in ultrasound breasts can be used as a tool to improve accuracy and automate image analysis. More importantly, it can detect cancer in an early stage before it metastasis. Employing AI and ML can assist radiologists by reducing false-positive results in the intrpretation of breast ultrasound exams and aid in data analysis and research.
+Employing ML can be tool to measuring mass of tumore in breast cancer and help paitients for early diagnoitic process.
 
 # My Capstone Project
 
@@ -45,6 +46,10 @@ Using machine learning in ultrasound breasts can be used as a tool to improve ac
  ##### - Exploratory Data Analysis  
 
  ### A. Data Cleaning
+
+
+ For having better vision and perspective of data it woulb better to do sanity check and modify data. There are several key steps that for machine learning sanity chehck and data modification befire EDA is needed: I. Validity, II.Accuracy, III.Completness, IV. Consistensy, V. Uniformity 
+
  
  - To ensure quality and database and the accuracy of the model. Multiple steps such as:
  1. Resize images to a uniform size to ensure consistency.
