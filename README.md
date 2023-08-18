@@ -47,6 +47,11 @@ Employing ML can be tool to measuring mass of tumore in breast cancer and help p
 
  ### A. Data Cleaning
 
+ - Spliting the dataset is step that should considered before cleaning the data. After spliting the 
+   dataset now there are three separaet sets:
+                1. Train
+                2. Val
+                3. Test
 
  For having better vision and perspective of data it woulb better to do sanity check and modify data. There are several key steps that for machine learning sanity chehck and data modification befire EDA is needed: I. Validity, II.Accuracy, III.Completness, IV. Consistensy, V. Uniformity 
 
@@ -78,6 +83,12 @@ Employing ML can be tool to measuring mass of tumore in breast cancer and help p
  8. Visualizing Class-Specific Features: Explore whether any unique visual features distinguish benign images from malignant images.
 
  9. Feature Visualization with CNN: it can visualize the feature maps produced by intermediate layers of the network to understand what patterns the model is learning from the images.
+
+ 10. Denoising: Sometimes the ultrasound images have some noises, to get better accuracy and results
+ with our model it would recommended to denoised the data.
+
+ 11. Balancing: Class of images is equally represented, promoting fairness and can help to help machine to work properly.
+
 
 ### C.Feature Processing
 
@@ -131,8 +142,7 @@ Utilize GANs to generate synthetic images that can augment of dataset, effective
     - Baseline Model for Breast Cancer Detection:
         Begin the project by creating a baseline model using machine learning techniques to detect breast cancer from ultrasound images.
    
-    - Logistic Regression for Breast Cancer Classification:
-        Implement logistic regression as an initial model for classifying ultrasound breast cancer images.
+    - CNN model: seven tries of CNN models were tried and graphed to obtain best shap of trained machine for our project.
   
     - Handling Class Imbalance in Breast Cancer Data:
         Address the class imbalance issue in the breast cancer dataset using appropriate techniques to ensure a balanced representation of benign and malignant cases.
